@@ -24,7 +24,7 @@ export const experiences = [
     id: 1,
     title: 'full stack devloper',
     company: "surat it hub.",
-    duration: "(may 2024 - aug 2024)"
+    duration: "(Jan 2024 - Apr 2024)"
   },
   {
     id: 2,

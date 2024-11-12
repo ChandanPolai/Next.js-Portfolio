@@ -64,6 +64,18 @@ function ProjectCard({ project }) {
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
       </div>
+      <div className="flex justify-center space-x-4 mt-4 pb-4">
+        {project.demo && (
+          <a href={project.demo} target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4 py-2 rounded-lg">
+            Live
+          </a>
+        )}
+        {project.code && (
+          <a href={project.code} target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-500 to-blue-500  px-4 py-2 rounded-lg">
+            Repo Link
+          </a>
+        )}
+      </div>
     </div>
   );
 };
